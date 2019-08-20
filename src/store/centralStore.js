@@ -10,7 +10,7 @@ export const store = new Vuex.Store({
 
   getters: {
     /**
-     * access counter in state from the paramater
+     * access counter in state from the parameter
      */
     addCurrencyToCounter: function(state) {
       return `$ ${state.counter} (dollars)`;
